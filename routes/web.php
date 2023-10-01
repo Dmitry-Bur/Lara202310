@@ -13,6 +13,13 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
+//Route::get('/', function () {
+//    return view('welcome');
+//});
+
+Route::view('/{page}','admin.index')->where('page','.*');
+
+Route::redirect('/home','/');
+Route::fallback(function (){
+
 });
