@@ -17,12 +17,12 @@ const router = createRouter({
         {
             path: '/categories/create',
             component: () => import('./components/admin/CreateCategories'),
-            name: 'admin.categories'
+            name: 'admin.categories.create'
         },
         {
             path: '/categories',
             component: () => import('./components/admin/Categories'),
-            name: 'admin.categories.create'
+            name: 'admin.categories'
         },
     ]
 

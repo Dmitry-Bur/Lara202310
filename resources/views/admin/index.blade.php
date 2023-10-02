@@ -54,8 +54,8 @@
 
                     <div class="collapse" id="collapsePages" aria-labelledby="headingOne" data-bs-parent="#sidenavAccordion">
                         <nav class="sb-sidenav-menu-nested nav">
-                            <router-link class="nav-link" :to="{name: 'admin.categories.create'}">Создать категорию</router-link>
-                            <router-link class="nav-link" :to="{name: 'admin.categories'}">Список категорий</router-link>
+
+                          <router-link class="nav-link" :to="{name: 'admin.categories.create'}">Создать категорий</router-link>
                         </nav>
                     </div>
 
